@@ -24,7 +24,7 @@ body {
 
 .flip-card {
   width: 30vw;
-  height: 50vh;
+  height: 300px;
   background-color: transparent;
   perspective: 1000px;
 }
@@ -79,7 +79,7 @@ body {
 }
 
 #term {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #definition {
