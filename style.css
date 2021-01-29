@@ -84,6 +84,7 @@ body {
 
 #definition {
   font-size: 1.25rem;
+  max-height: 300px;
 }
 
 .btns {

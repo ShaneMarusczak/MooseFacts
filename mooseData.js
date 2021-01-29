@@ -24,5 +24,16 @@ function studyData() {
       "Did you know that moose are the state animal of Maine, Alaska?",
       "moose7.jpg",
     ],
+    ["Only male moosen (bulls) have antlers.", "moose8.jpg"],
+    [
+      "Antler shapes differ from moose to moose and they shed them every year around November, which are then replaced with larger ones the following spring.",
+      "moose9.jpg",
+    ],
+    [
+      "The primary function of antlers is for display during the competitive mating season.",
+      "moose10.jpg",
+    ],
+    ["Moose don't have thumbs or cell phones.", "moose11.jpg"],
+    ["Tree Bark Soup: Add bark to hot water. Enjoy!", "moose12.jpg"],
   ];
 }
