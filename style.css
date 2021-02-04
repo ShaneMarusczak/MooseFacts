@@ -84,14 +84,13 @@ body {
 
 #definition {
   font-size: 1.25rem;
-  max-height: 300px;
+  max-height: 325px;
 }
 
 .btns {
-  width: 375px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 35px 0;
 }
 

@@ -35,5 +35,10 @@ function studyData() {
     ],
     ["Moose don't have thumbs or cell phones.", "moose11.jpg"],
     ["Tree Bark Soup: Add bark to hot water. Enjoy!", "moose12.jpg"],
+    [
+      "The global moose population is estimated to be over 2 million, with the largest population being found in Canada.",
+      "moose13.gif",
+    ],
+    ["Moose love maple syrup and free healthcare.", "moose14.jpg"],
   ];
 }
