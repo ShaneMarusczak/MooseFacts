@@ -21,7 +21,7 @@ function studyData() {
       "moose6.jpg",
     ],
     [
-      "Did you know that moose are the state animal of Maine, Alaska?",
+      "Did you know that moose are the state animal of Maine and Alaska?",
       "moose7.jpg",
     ],
     ["Only male moosen (bulls) have antlers.", "moose8.jpg"],
