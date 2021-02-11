@@ -84,7 +84,7 @@ body {
 
 #definition {
   font-size: 1.25rem;
-  max-height: 325px;
+  max-height: 350px;
 }
 
 .btns {
@@ -106,4 +106,8 @@ body {
 
 #updateText {
   text-align: center;
+}
+
+.hidden {
+  display: none !important;
 }

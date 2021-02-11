@@ -3,11 +3,14 @@
   let currentCardIndex = 0;
   const [flipCard] = document.getElementsByClassName("flip-card");
   const [innerFlipCard] = document.getElementsByClassName("flip-card-inner");
+  const [flipCardFront] = document.getElementsByClassName("flip-card-front");
 
   const order = [];
 
   const randomIntFromInterval = (min, max) =>
     Math.floor(Math.random() * (max - min + 1) + min);
+
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   function setCardData() {
     [document.getElementById("term").innerText] = window.studyData()[
@@ -47,8 +50,10 @@
     flipCard.addEventListener("click", () => {
       if (innerFlipCard.classList.contains("flip-card-flip")) {
         innerFlipCard.classList.remove("flip-card-flip");
+        sleep(250).then(() => flipCardFront.classList.remove("hidden"));
       } else {
         innerFlipCard.classList.add("flip-card-flip");
+        sleep(250).then(() => flipCardFront.classList.add("hidden"));
       }
     });
     generateOrder();

@@ -40,5 +40,9 @@ function studyData() {
       "moose13.gif",
     ],
     ["Moose love maple syrup and free healthcare.", "moose14.jpg"],
+    [
+      "Moose have a high center of gravity, above the hood of most passenger vehicles.",
+      "moose15.jpg",
+    ],
   ];
 }
